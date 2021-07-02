@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_honami.mk
+    $(LOCAL_DIR)/aosp_honami.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_honami-user \
-    lineage_honami-userdebug \
-    lineage_honami-eng
+    aosp_honami-user \
+    aosp_honami-userdebug \
+    aosp_honami-eng
