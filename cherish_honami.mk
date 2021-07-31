@@ -1,5 +1,5 @@
 # Inherit lineage common Phone stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 $(call inherit-product, device/sony/honami/full_honami.mk)
 
