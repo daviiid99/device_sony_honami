@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_honami.mk
+    $(LOCAL_DIR)/cherish_honami.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_honami-user \
-    lineage_honami-userdebug \
-    lineage_honami-eng
+    cherish_honami-user \
+    cherish_honami-userdebug \
+    cherish_honami-eng
