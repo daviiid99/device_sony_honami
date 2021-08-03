@@ -6,7 +6,6 @@ $(call inherit-product, device/sony/honami/full_honami.mk)
 # Inherit some common cherish stuff.
 WITH_GMS := true
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
-TARGET_GAPPS_ARCH := armv7a
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 CHERISH_BUILD_TYPE := OFFICIAL
