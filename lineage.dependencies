@@ -1,7 +1,76 @@
 [
   {
-    "repository": "AICP/device_sony_rhine-common",
+    "repository": "daviiid99/android_device_sony_honami",
+    "target_path": "device/sony/honami",
+    "branch": "lineage-18.1"
+  },
+  
+ 
+  {
+    "repository": "daviiid99/device_sony_rhine-common",
     "target_path": "device/sony/rhine-common",
-    "branch": "p9.0"
-  }
+    "branch": "lineage-18.1"
+  },
+  
+    {
+    "repository": "daviiid99/device_sony_msm8974-common",
+    "target_path": "device/sony/msm8974-common",
+    "branch": "lineage-18.1"
+  },
+  
+    {
+    "repository": "daviiid99/kernel_sony_msm8974",
+    "target_path": "kernel/sony/msm8974",
+    "branch": "r11.1"
+  },
+  
+    {
+    "repository": "daviiid99/proprietary_vendor_sony",
+    "target_path": "vendor/sony",
+    "branch": "r11.1"
+  },
+  
+    {
+    "repository": "AICP/device_sony_common",
+    "target_path": "device/sony/common-caf",
+    "branch": "r11.1-caf"
+  },
+  
+    {
+    "repository": "LineageOS/android_hardware_sony_macaddrsetup",
+    "target_path": "hardware/sony/macaddrsetup",
+    "branch": "lineage-18.1"
+  },
+  
+    {
+    "repository": "LineageOS/android_hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager",
+    "branch": "lineage-18.1"
+  },
+  
+    {
+    "repository": "LineageOS/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "branch": "lineage-18.1"
+  },
+  
+    {
+    "repository": "LineageOS/android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat",
+    "branch": "lineage-18.1"
+  },
+  
+    {
+    "repository": "daviiid99/LineageOS_Honami",
+    "target_path": "RPatches/",
+    "branch": "patches"
+  },
+  
+  
+  
+  
+  
+  
+  
+  
 ]
