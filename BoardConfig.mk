@@ -18,6 +18,9 @@ include device/sony/rhine-common/BoardConfigCommon.mk
 # inherit from the proprietary version
 #-include vendor/sony/honami/BoardConfigVendor.mk
 
+
+DEVICE_PATH := device/sony/honami
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := C6902,C6903,C6906,C6943,honami
 
@@ -26,6 +29,8 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/honami/include
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/honami/bluetooth
 
 # Kernel properties
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/zImage
+TARGET_PREBUILT_DT := $(DEVICE_PATH)/prebuilt/dt.img
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
