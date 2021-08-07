@@ -1,6 +1,6 @@
 [
   {
-    "repository": "daviiid99/android_device_sony_honami",
+    "repository": "daviiid99/device_sony_honami",
     "target_path": "device/sony/honami",
     "branch": "lineage-18.1"
   },
