@@ -1,20 +1,14 @@
 [
   {
-    "repository": "daviiid99/device_sony_honami",
-    "target_path": "device/sony/honami",
-    "branch": "lineage-18.1"
-  },
-  
-  {
     "repository": "daviiid99/device_sony_rhine-common",
     "target_path": "device/sony/rhine-common",
-    "branch": "lineage-18.1"
+    "branch": "dotos"
   },
   
     {
     "repository": "daviiid99/device_sony_msm8974-common",
     "target_path": "device/sony/msm8974-common",
-    "branch": "lineage-18.1"
+    "branch": "dotos"
   },
   
     {
