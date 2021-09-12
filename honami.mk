@@ -12,10 +12,23 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+LOCAL_PATH := device/sony/honami
+
 # Inherit the fusion-common definitions
 $(call inherit-product, device/sony/rhine-common/rhine.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/sony/honami/overlay
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
+#GAPPS config
+GAPPS_VARIANT := pico
+GAPPS_PRODUCT_PACKAGES += Youtube
+GAPPS_PRODUCT_PACKAGES += GoogleDialer
+GAPPS_PRODUCT_PACKAGES += Wallpapers
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
